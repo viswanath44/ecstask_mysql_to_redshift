@@ -1,0 +1,16 @@
+{
+    "mysql": {
+        "hostname": "localhost",
+        "database_name": "test_db",
+        "username": "root",
+        "password": "root_password",
+        "port": 3306
+    },
+    "postgres": {
+        "hostname": "localhost",
+        "database_name": "postgres_db",
+        "username": "postgres",
+        "password": "postgres_pwd",
+        "port": 5432
+    }
+}
