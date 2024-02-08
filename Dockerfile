@@ -1,6 +1,5 @@
 FROM python:3.9
-WORKDIR /ecstask
-COPY . ./ecstask
+WORKDIR /app
+COPY . ./app
 RUN pip install --no-cache-dir -r requirements.txt
-EXPOSE 8000
-ENTRYPOINT ["python", "dbscript-v3.py"]
+ENTRYPOINT ["python", "load_data_to_postgres.py"]
